@@ -3,6 +3,8 @@ body {
     font-size: 14px;
     color: #7e7e7e;
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    max-width: 100vw;
 }
 
 /* ###############
@@ -13,13 +15,13 @@ body {
     background-image: url(images/mobile.jpg);
     background-size: cover;
     background-position: top center;
-    height: 40%;
+    height: 50%;
     background-color: #404040;
-    max-width: 480px;
+    width: 100%;
 }
 
 .main-content {
-    height: 100vh;
+    height: 95%;
 
 }
 
@@ -27,7 +29,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1.5em;
-    /*  */
     height: 50%;
 }
 
@@ -42,8 +43,6 @@ body {
 h1 {
     color: #131212;
     margin-top: .5em;
-    /*  */
-
 }
 
 h1,
