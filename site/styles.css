@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-size: 14px;
     color: #7e7e7e;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
@@ -15,7 +14,7 @@ body {
     background-image: url(images/mobile.jpg);
     background-size: cover;
     background-position: top center;
-    height: 50%;
+    height: 40%;
     background-color: #404040;
     width: 100%;
 }
@@ -43,13 +42,13 @@ body {
 h1 {
     color: #131212;
     margin-top: .5em;
+    font-size: 3.6rem;
 }
 
 h1,
 .cost {
     font-family: 'Fraunces', serif;
     font-weight: bold;
-    font-size: 1.6rem;
 }
 
 h1+p {
@@ -70,6 +69,7 @@ h1+p {
     color: #368869;
     margin: 0;
     padding-top: 3px;
+    font-size: 2.6rem;
 }
 
 .cost+p {
