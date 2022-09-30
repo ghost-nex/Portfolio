@@ -112,7 +112,7 @@ h1+p {
     media query
 ##################*/
 
-@media (min-width: 480px) {
+@media (min-width: 550px) {
     body {
         background-color: bisque
     }
