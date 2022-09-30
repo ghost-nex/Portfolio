@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    color: #7e7e7e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ###############
+       layout
+##################*/
+
+.bg-image {
+    background-image: url(images/mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 40%;
+    background-color: #404040;
+    max-width: 480px;
+}
+
+.main-content {
+    height: 100vh;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    /*  */
+    height: 50%;
+}
+
+.cost-container {
+    display: flex;
+}
+
+/* ###############
+    typography
+##################*/
+
+h1 {
+    color: #131212;
+    margin-top: .5em;
+    /*  */
+
+}
+
+h1,
+.cost {
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+h1+p {
+    order: -1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+    font-size: .6rem;
+}
+
+.text {
+    font-size: 12px;
+    margin-top: 0;
+    line-height: 1.7em
+}
+
+.cost {
+    color: #368869;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.cost+p {
+    color: #404040;
+    font-weight: lighter;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 1.4em;
+    margin-top: .8em;
+    align-items: center;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* ###############
+    link
+##################*/
+
+.add-to-cart {
+    background: #368869;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 2em;
+}
+
+/* ###############
+    media query
+##################*/
+
+@media (min-width: 480px) {
+    body {
+        background-color: bisque
+    }
+
+    .main-content {
+        min-width: 480px;
+        max-width: 800px;
+        display: flex;
+
+        margin: 0 auto;
+        background: white;
+        border-radius: 5px;
+    }
+
+    .bg-image {
+        background-image: url('images/image-product-desktop.jpg');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .text-container {
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
+
+        padding: 1em 3em;
+    }
+
+    .cost-container {
+        margin: -2.5em 0;
+    }
+
+    /* ###############
+    typography
+##################*/
+
+    h1 {
+        font-size: 2.9rem;
+        margin-top: -.3em;
+        line-height: 1em;
+    }
+
+    h1+p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .text {
+        margin-top: -3.1em;
+        font-size: 1.1rem;
+    }
+
+    .cost {
+        margin: 0;
+        font-size: 2.3rem
+    }
+
+    .cost+p {
+        margin-top: 1.4em;
+
+    }
+
+    a {
+        font-weight: bold;
+    }
+}
