@@ -30,7 +30,6 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 1.5em;
-    height: 50%;
 }
 
 .cost-container {
