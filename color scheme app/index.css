@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.main {
+    width: 550px;
+    margin: 0 auto;
+    background-color: #edede9;
+    padding: 1em 0 0;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+}
+
+select {
+    width: 300px;
+    border: 1px solid;
+}
+
+
+input,
+button,
+select {
+    height: 42px;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#color-picker {
+    width: 50px;
+}
+
+.colors-container {
+    display: flex;
+    margin: 1em 0;
+}
+
+.colors-bg {
+    width: 100vw;
+}
+
+.color-image-1,
+.color-image-2,
+.color-image-3,
+.color-image-4,
+.color-image-5 {
+    height: 75vh;
+}
